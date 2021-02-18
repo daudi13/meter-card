@@ -5,6 +5,18 @@ $font-weight : (
     "bold": 700
 );
 
+$font-size:(
+    "sm" : 14px,
+    "xl" : 28px
+);
+
+@function size($size-name) {
+    @return map-get($font-size, $size-name);
+}
+
 @function weight($weight-name) {
     @return map-get($font-weight , $weight-name )
 }
+
+$background: rgb(219,68,55);
+$linear : linear-gradient(80deg, rgba(219,68,55,1) 0%, rgba(0,142,255,1) 100%);

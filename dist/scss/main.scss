@@ -8,6 +8,6 @@ body{
     height: 100vh;
     @extend flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(219,68,55);
-    background: linear-gradient(80deg, rgba(219,68,55,1) 0%, rgba(0,142,255,1) 100%);
+    background: $background;
+    background: $linear
 }

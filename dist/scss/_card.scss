@@ -15,7 +15,7 @@
         .card__name {
             
             .name__text {
-                font-size: 28px;
+                font-size: size(xl);
                 font-weight: weight(bold);
             }
 
@@ -29,7 +29,7 @@
                 flex-direction: column;
 
                 label {
-                    font-size: 14px;
+                    font-size: size(sm);
                     font-weight: weight(regular);
                 }
 
