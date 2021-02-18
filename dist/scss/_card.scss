@@ -3,7 +3,7 @@
         background: #fff;
         @extend flex;
         border-radius: 20px;
-        box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+        box-shadow: $shadow;
 
         img {
             height: 180px;
